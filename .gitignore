@@ -1,13 +1,18 @@
-# Ignorer les environnements virtuels
+# Environnement virtuel
 .venv/
-venv/
+__pycache__/
+*.pyc
 
-# Ignorer les fichiers de données volumineux
+# Données
 data/*.csv
 data/*.xlsx
 data/*.zip
+data/*.parquet
 
-# Ignorer les fichiers temporaires
-__pycache__/
-*.pyc
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Autres fichiers temporaires
 .DS_Store
+Thumbs.db
+
