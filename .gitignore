@@ -1,0 +1,13 @@
+# Ignorer les environnements virtuels
+.venv/
+venv/
+
+# Ignorer les fichiers de données volumineux
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Ignorer les fichiers temporaires
+__pycache__/
+*.pyc
+.DS_Store
