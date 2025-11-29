@@ -6,6 +6,7 @@ __pycache__/
 # Données
 data/*.csv
 notebooks/*.csv
+/outputs/
 data/*.xlsx
 data/*.zip
 data/*.parquet
